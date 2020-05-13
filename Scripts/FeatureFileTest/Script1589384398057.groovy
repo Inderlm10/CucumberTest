@@ -19,3 +19,5 @@ CucumberKW.runFeatureFile('Include/features/Login.feature')
 
 CucumberKW.runFeatureFolder('Include/features')
 
+CucumberKW.runWithCucumberRunner(CucumberRunner.class)
+
