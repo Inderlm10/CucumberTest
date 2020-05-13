@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="23.58" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="23.58" timestamp="2020-05-13 11:44:01" hostname="Inderjit - Inderjit" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon Practice\\CucumberTest\\Reports\\20200513_114355\\TestSuite1\\20200513_114355"/>
+         <property name="logFiles" value="F:\\Katalon Practice\\CucumberTest\\Reports\\20200513_114355\\TestSuite1\\20200513_114355\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Inderjit - Inderjit"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Firefox 75.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="64986608-fc20-4ba6-a34c-446b3d6285ba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FeatureFileTest" time="23.392" classname="Test Cases/FeatureFileTest" status="PASSED">
+         <system-out><![CDATA[2020-05-13 11:44:01 - [TEST_CASE][PASSED] - Test Cases/FeatureFileTest: ===============================================================
+
+2020-05-13 11:44:01 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login.feature"): Test Cases/FeatureFileTest
+
+2020-05-13 11:44:01 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'F:\Katalon Practice\CucumberTest\Reports\20200513_114355\TestSuite1\20200513_114355/cucumber_report/1589384641828'...
+
+2020-05-13 11:44:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Login with valid credentials: SCENARIO Test Login with valid credentials
+
+2020-05-13 11:44:02 - [TEST_STEP][PASSED] - User navigates to login page: User navigates to login page
+
+2020-05-13 11:44:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 11:44:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-13 11:44:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 11:44:11 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-05-13 11:44:11 - [MESSAGE][PASSED] - User navigates to login page
+
+2020-05-13 11:44:11 - [TEST_STEP][PASSED] - User enters Admin and hUKwJTbofgPU9eVlw/CnDQ==: User enters Admin and hUKwJTbofgPU9eVlw/CnDQ==
+
+2020-05-13 11:44:11 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-05-13 11:44:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-05-13 11:44:11 - [MESSAGE][PASSED] - User enters Admin and hUKwJTbofgPU9eVlw/CnDQ==
+
+2020-05-13 11:44:11 - [TEST_STEP][PASSED] - clicks on login button: clicks on login button
+
+2020-05-13 11:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-05-13 11:44:13 - [MESSAGE][PASSED] - clicks on login button
+
+2020-05-13 11:44:13 - [TEST_STEP][PASSED] - User is navigated to homepage: User is navigated to homepage
+
+2020-05-13 11:44:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/b_Dashboard' is present
+
+2020-05-13 11:44:15 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-13 11:44:15 - [MESSAGE][PASSED] - User is navigated to homepage
+
+2020-05-13 11:44:15 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed
+
+2020-05-13 11:44:15 - [TEST_STEP][PASSED] - runFeatureFolder("Include/features"): All feature files in 'Include/features' were passed
+
+2020-05-13 11:44:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFolder: 'Include/features' and extract report to folder: 'F:\Katalon Practice\CucumberTest\Reports\20200513_114355\TestSuite1\20200513_114355/cucumber_report/1589384655275'...
+
+2020-05-13 11:44:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 11:44:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-13 11:44:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 11:44:19 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-05-13 11:44:20 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-05-13 11:44:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-05-13 11:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-05-13 11:44:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/b_Dashboard' is present
+
+2020-05-13 11:44:24 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-13 11:44:24 - [MESSAGE][PASSED] - All feature files in 'Include/features' were passed
+
+2020-05-13 11:44:24 - [MESSAGE][PASSED] - Test Cases/FeatureFileTest]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-13 11:44:01 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null]]></system-out>
+      <system-err><![CDATA[2020-05-13 11:44:01 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null]]></system-err>
+   </testsuite>
+</testsuites>

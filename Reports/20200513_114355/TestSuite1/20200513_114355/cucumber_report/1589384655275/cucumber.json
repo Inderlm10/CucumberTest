@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Test Login with valid credentials",
+        "description": "",
+        "id": "login-feature;test-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4512004200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "LoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 988273600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Admin and hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 12
+                },
+                {
+                  "val": "hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.enterCredentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1582432400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "LoginSteps.loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2506131300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is navigated to homepage",
+            "match": {
+              "location": "LoginSteps.homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "F:/Katalon Practice/CucumberTest/Include/features/Login.feature",
+    "tags": []
+  }
+]
